@@ -6,11 +6,10 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="PrimeWest External Recipient Warning"/>
   <Description DefaultValue="Displays a professional warning when a message is addressed to external recipients."/>
-  <IconUrl DefaultValue="https://www.contoso.com/assets/icon.png"/>
-  <HighResolutionIconUrl DefaultValue="https://www.contoso.com/assets/icon.png"/>
+  <IconUrl DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/dist/assets/icon.png"/>
+  <HighResolutionIconUrl DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/dist/assets/icon.png"/>
   <SupportUrl DefaultValue="https://www.primewest.org"/>
   <AppDomains>
-    <AppDomain>https://localhost:3000</AppDomain>
     <AppDomain>https://www.primewest.org</AppDomain>
   </AppDomains>
   <Hosts>
@@ -89,14 +88,14 @@
       </Hosts>
       <Resources>
         <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://www.contoso.com/assets/icon-16.png"/>
-          <bt:Image id="Icon.32x32" DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
-          <bt:Image id="Icon.80x80" DefaultValue="https://www.contoso.com/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/dist/assets/icon-16.png"/>
+          <bt:Image id="Icon.32x32" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/dist/assets/icon-32.png"/>
+          <bt:Image id="Icon.80x80" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/dist/assets/icon-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="JSRuntime.Url" DefaultValue="https://www.contoso.com/launchevent.js"/>
-          <bt:Url id="Taskpane.Url" DefaultValue="https://www.contoso.com/taskpane.html"/>
-          <bt:Url id="WebViewRuntime.Url" DefaultValue="https://www.contoso.com/launchevent.html"/>
+          <bt:Url id="JSRuntime.Url" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/dist/launchevent.js"/>
+          <bt:Url id="Taskpane.Url" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/dist/taskpane.html"/>
+          <bt:Url id="WebViewRuntime.Url" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/dist/launchevent.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="Recipient review"/>
