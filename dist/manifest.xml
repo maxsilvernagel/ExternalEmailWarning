@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
-  <Id>f9abed2a-5bf7-42ad-8ff7-65711751b50a</Id>
+  <Id>f9abed2a-5bf7-42ad-8ff7-657117test01</Id>
   <Version>3.2.0.0</Version>
   <ProviderName>Chris Folkert</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="PrimeWest External Recipient Warning"/>
+  <DisplayName DefaultValue="PrimeWest External Recipient Warning WIP"/>
   <Description DefaultValue="Displays a professional warning when a message is addressed to external recipients."/>
   <IconUrl DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/dist/assets/icon.png"/>
   <HighResolutionIconUrl DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/dist/assets/icon.png"/>
