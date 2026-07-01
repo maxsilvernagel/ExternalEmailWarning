@@ -1,0 +1,1 @@
+Office.onReady(e=>{e.host===Office.HostType.Outlook&&(document.getElementById("sideload-msg").style.display="none",document.getElementById("app-body").style.display="flex")});
