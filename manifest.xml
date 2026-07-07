@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>f9abed2a-5bf7-42ad-8ff7-65711751b50a</Id>
-  <Version>1.0.0.0</Version>
-  <ProviderName>Chris Folkert</ProviderName>
+  <Version>2.0.0.0</Version>
+  <ProviderName>PrimeWest BIT</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="PrimeWest External Recipient Warning"/>
   <Description DefaultValue="Displays a professional warning when a message is addressed to external recipients."/>
