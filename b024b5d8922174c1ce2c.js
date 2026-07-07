@@ -1,1 +1,0 @@
-window.primeWestExternalWarningConfig={internalDomains:["primewest.org"],secureSensitivityLabelIds:[],secureSensitivityLabelNames:[],secureSendHeaderName:"X-PrimeWest-Secure-Send",secureSendHeaderValue:"true"};
