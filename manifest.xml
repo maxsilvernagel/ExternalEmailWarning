@@ -118,7 +118,7 @@
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="Recipient review"/>
           <bt:String id="TaskpaneButton.Label" DefaultValue="Review settings"/>
-          <bt:String id="SendSecurelyButton.Label" DefaultValue="Send Securely"/>
+          <bt:String id="SendSecurelyButton.Label" DefaultValue="Send Secure"/>
         </bt:ShortStrings>
         <bt:LongStrings>
           <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Opens the PrimeWest external recipient warning information pane."/>
