@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>f9abed2a-5bf7-42ad-8ff7-65711751b50a</Id>
-  <Version>1.1.0.0</Version>
-  <ProviderName>Chris Folkert</ProviderName>
+  <Version>2.0.0.0</Version>
+  <ProviderName>PrimeWest BIT</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="PrimeWest External Recipient Warning"/>
   <Description DefaultValue="Displays a professional warning when a message is addressed to external recipients."/>
-  <IconUrl DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/assets/pw_sweetgrass_square_icon.png"/>
-  <HighResolutionIconUrl DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/assets/pw_sweetgrass_square_icon.png"/>
+  <IconUrl DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/assets/pw_sweetgrass_icon_32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/assets/pw_sweetgrass_icon_64.png"/>
   <SupportUrl DefaultValue="https://www.primewest.org"/>
   <AppDomains>
     <AppDomain>https://maxsilvernagel.github.io</AppDomain>
@@ -106,9 +106,9 @@
       </Hosts>
       <Resources>
         <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/assets/pw_sweetgrass_square_icon.png"/>
-          <bt:Image id="Icon.32x32" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/assets/pw_sweetgrass_square_icon.png"/>
-          <bt:Image id="Icon.80x80" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/assets/pw_sweetgrass_square_icon.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/assets/pw_sweetgrass_icon_16.png"/>
+          <bt:Image id="Icon.32x32" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/assets/pw_sweetgrass_icon_32.png"/>
+          <bt:Image id="Icon.80x80" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/assets/pw_sweetgrass_icon_80.png"/>
         </bt:Images>
         <bt:Urls>
           <bt:Url id="JSRuntime.Url" DefaultValue="https://maxsilvernagel.github.io/ExternalEmailWarning/launchevent.js"/>
