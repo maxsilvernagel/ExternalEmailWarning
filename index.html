@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PrimeWest External Recipient Warning</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #172033;
+        background: #f6f8fb;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 32px;
+        background: #f6f8fb;
+      }
+
+      main {
+        width: min(100%, 640px);
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 28px;
+      }
+
+      img {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+      }
+
+      .label {
+        margin: 0;
+        color: #657085;
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0;
+      }
+
+      p {
+        max-width: 58ch;
+        margin: 0;
+        color: #4b5568;
+        font-size: 17px;
+        line-height: 1.65;
+      }
+
+      @media (max-width: 520px) {
+        body {
+          padding: 24px;
+        }
+
+        h1 {
+          font-size: 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="brand" aria-label="PrimeWest">
+        <img src="assets/pw_sweetgrass_icon_80.png" alt="PrimeWest" />
+        <p class="label">Outlook add-in host</p>
+      </div>
+      <h1>PrimeWest External Recipient Warning</h1>
+      <p>
+        This GitHub Pages site hosts the static files for the PrimeWest Outlook add-in that
+        warns users before messages are sent to external recipients.
+      </p>
+    </main>
+  </body>
+</html>
