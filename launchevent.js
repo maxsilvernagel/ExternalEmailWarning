@@ -6,7 +6,7 @@ const ADD_IN_CONFIG = "undefined" != typeof window && window.primeWestExternalWa
     SECURE_SEND_HEADER_NAME = normalizeHeaderName(ADD_IN_CONFIG.secureSendHeaderName || "X-PrimeWest-Secure-Send"),
     SECURE_SEND_HEADER_VALUE = normalizeConfiguredHeaderValue(ADD_IN_CONFIG.secureSendHeaderValue || "true"),
     SECURE_SEND_COMMAND_ID = "sendSecurelyButton",
-    SECURE_SEND_BUTTON_LABEL = "Send Securely",
+    SECURE_SEND_BUTTON_LABEL = "Send securely",
     SECURE_SEND_NOTIFICATION_ID = "secure-send-marker-added";
 let cachedSecureSensitivityLabelIds = null;
 const EXTERNAL_WARNING_NOTIFICATION_ID = "external-recipient-warning",
