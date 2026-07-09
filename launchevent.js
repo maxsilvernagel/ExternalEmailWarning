@@ -10,8 +10,8 @@ const ADD_IN_CONFIG = "undefined" != typeof window && window.primeWestExternalWa
     SECURE_SEND_NOTIFICATION_ID = "secure-send-marker-added";
 let cachedSecureSensitivityLabelIds = null;
 const EXTERNAL_WARNING_NOTIFICATION_ID = "external-recipient-warning",
-    SEND_CHECK_TIMEOUT_MS = 4e3,
-    SEND_WARNING_MESSAGE = "External recipient detected.\n\nShould this message be sent secure?\n\nSelect Send Secure to encrypt this email, or Send Normal to send without securing.",
+    SEND_CHECK_TIMEOUT_MS = 10000,
+    SEND_WARNING_MESSAGE = "External recipient detected.\n\nShould this message be sent securely?\n\nSelect 'Send securely' to encrypt this email, 'Send anyway' to send normally, or 'Don't send' to make changes.",
     SECURE_SEND_MANUAL_SEND_MESSAGE = "Secure-send marker added. Select Send again to route this message through the Purview secure mail system.",
     SECURE_SEND_FAILED_TO_SEND_MESSAGE = "Secure-send marker added, but Outlook could not automatically send the message. Select Send again to continue.",
     SECURE_SEND_MARK_FAILED_MESSAGE = "Unable to add the secure-send marker. Try again, or contact IT before sending sensitive information externally.",
@@ -87,7 +87,7 @@ function createSecureSendPromptOptions(e) {
     return {
         allowEvent: !1,
         errorMessage: SEND_WARNING_MESSAGE,
-        cancelLabel: "Send Securely",
+        cancelLabel: "Send securely",
         commandId: "sendSecurelyButton",
         contextData: JSON.stringify({
             action: "mark-for-secure-send",
