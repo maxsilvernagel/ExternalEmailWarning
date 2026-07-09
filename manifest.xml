@@ -118,11 +118,11 @@
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="Recipient review"/>
           <bt:String id="TaskpaneButton.Label" DefaultValue="Review settings"/>
-          <bt:String id="SendSecurelyButton.Label" DefaultValue="Send Secure"/>
+          <bt:String id="SendSecurelyButton.Label" DefaultValue="Send securely"/>
         </bt:ShortStrings>
         <bt:LongStrings>
           <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Opens the PrimeWest external recipient warning information pane."/>
-          <bt:String id="SendSecurelyButton.Tooltip" DefaultValue="Adds the Purview secure-send marker to this message."/>
+          <bt:String id="SendSecurelyButton.Tooltip" DefaultValue="Marks this email as secure and encrypts it."/>
         </bt:LongStrings>
       </Resources>
     </VersionOverrides>
